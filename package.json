@@ -1,6 +1,6 @@
 {
-    "name": "axios-rxjs",
-    "version": "0.0.1",
+    "name": "t-axios-rxjs",
+    "version": "0.1.0",
     "description": "use axios in rxjs way",
     "main": "dist/index.js",
     "scripts": {
