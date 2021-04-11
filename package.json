@@ -16,6 +16,11 @@
     ],
     "author": "Tina Liang",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/teana0953/axios-rxjs"
+    },
+    "homepage": "https://github.com/teana0953/axios-rxjs",
     "devDependencies": {
         "@types/node": "12.12.6",
         "ts-node": "8.10.2"
