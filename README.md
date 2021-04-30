@@ -7,7 +7,7 @@ Use rxjs to wrap axios library that let developer can use axios in rxjs way.
 1. Via npm
 
     ```bash
-    npm install axios-rxjs
+    npm install t-axios-rxjs
     ```
 
 2. In package.json:
@@ -16,7 +16,7 @@ Use rxjs to wrap axios library that let developer can use axios in rxjs way.
     {
         ...
         "dependencies": {
-            "axios-rxjs": "0.1.0",
+            "t-axios-rxjs": "0.1.0",
             ...
         }
         ...
