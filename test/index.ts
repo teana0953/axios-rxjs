@@ -11,15 +11,19 @@ setTimeout(async () => {
 
     let sub = server
         .http$<{ name: string }>({
-            url: '/about',
-            method: 'get',
+            url: '/user/add-friend',
+            method: 'put',
+            data: {
+                objectId: '123',
+                name: 'demo',
+            },
         })
         .subscribe({
             next: (x) => {
                 console.log(x.data);
             },
             error: (error) => {
-                console.log('error!', error);
+                console.log('error!', error?.response?.data?.message);
             },
         });
 }, 0);
