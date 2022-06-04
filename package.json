@@ -28,7 +28,7 @@
     "dependencies": {
         "axios": "^0.21.1",
         "fs-extra": "^9.0.1",
-        "rxjs": "^6.6.7",
+        "rxjs": "^7.0.0",
         "typescript": "3.8.3"
     }
 }
